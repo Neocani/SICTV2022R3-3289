@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; FontCharSet:ansi!; TextSize:8">
+  <RibbonItems>
+    <ApplicationButton Text="Sistema Informatico" Enabled="true" Tag="MyApp" Visible="true">
+      <ApplicationMenu>
+        <Master>
+          <Item Text="Configuracion Sistema" PictureName="OptionsBig!" Checked="false" Enabled="true" Tag="Configuracion Sistema" Type="0" Visible="true" Selected="">
+            <Item Text="Usuarios Permisos" PictureName="AccountBig!" Checked="false" Enabled="true" Tag="1" Type="0" Visible="true" Clicked="ue_1" Selected="" />
+            <Item Text="Configuracion de Accesos" PictureName="LockSmall!" Checked="false" Enabled="true" Tag="Configuracion de Accesos" Type="0" Visible="true" Clicked="ue_2" Selected="" />
+            <Item Text="Ubigeo y Zonas" PictureName="Custom042a!" Checked="false" Enabled="true" Tag="Ubigeo y Zonas" Type="0" Visible="true" Clicked="ue_3" Selected="" />
+            <Item Text="Datos de la Empresa" PictureName="Structure!" Checked="false" Enabled="true" Tag="Datos de Empresa" Type="0" Visible="true" Clicked="ue_4" Selected="" />
+            <Item Text="Datos del Local" PictureName="ComputePage2!" Checked="false" Enabled="true" Tag="Series Comprobantes" Type="0" Visible="true" Clicked="ue_5" Selected="" />
+       <Item Type="1" Visible="true"/>
+       <Item Text="Actualizaciones" PictureName="ToolkitDebugger!" Checked="false" Enabled="true" Tag="Actualizaciones" Type="0" Visible="true" Clicked="ue_110" Selected="" />
+          </Item>
+          <Item Type="1" Visible="true"/>
+          <Item Text="Mantenimiento Conceptos" PictureName="Options!" Checked="false" Enabled="true" Tag="Mantenimiento Conceptos" Type="0" Visible="true" Selected="ue_MenuUserSelected">
+            <Item Text="Conceptos" PictureName="SetDefaultClass1!" Checked="false" Enabled="true" Tag="Conceptos" Type="0" Visible="true" Clicked="ue_6" Selected="ue_MenuAccountSettingsSelected" />
+            <Item Text="Formas de Conexion" PictureName="DeclareProcedure!" Checked="false" Enabled="true" Tag="Formas de Conexion" Type="0" Visible="true" Clicked="ue_7" Selected="ue_MenuSignOutSelected" />
+          </Item>
+          <Item Type="1" Visible="true"/>
+          <Item Text="Dispositivos CATV-Internet" PictureName="StopBuildDeploySearchSCC!" Checked="false" Enabled="true" Tag="Mantenimiento Conceptos" Type="0" Visible="true" Selected="ue_MenuUserSelected">
+            <Item Text="Tipos de Dispositivos" PictureName="SkipBuildDeploySearchSCC!" Checked="false" Enabled="true" Tag="Formas de Conexion" Type="0" Visible="true" Clicked="ue_8" Selected="ue_MenuAccountSettingsSelected" />
+            <Item Text="Marcas \ Modelos Dispositivos" PictureName="Custom057a!" Checked="false" Enabled="true" Tag="Marcas \ Modelos Dispositivos" Type="0" Visible="true" Clicked="ue_9" Selected="ue_MenuSignOutSelected" />
+          </Item>
+          <Item Type="1" Visible="true"/>
+          <Item Text="Gastos Rubros" PictureName="Custom048a!" Checked="false" Enabled="true" Tag="Gastos Rubros" Type="0" Visible="true" Clicked="ue_10" Selected="ue_MenuOptionsSelected" />
+          <Item Text="Servicios" PictureName="BoardBig!" Checked="false" Enabled="true" Tag="Servicios" Type="0" Visible="true" Clicked="ue_11" Selected="ue_MenuOptionsSelected" />
+          <Item Text="Averias" PictureName="CreateLibrary!" Checked="false" Enabled="true" Tag="Averias" Type="0" Visible="true" Clicked="ue_12" Selected="ue_MenuOptionsSelected" />
+          <Item Text="Trabajadores" PictureName="Custom076!" Checked="false" Enabled="true" Tag="Trabajadores" Type="0" Visible="true" Clicked="ue_13" Selected="ue_MenuOptionsSelected" />
+          <Item Text="Periodos" PictureName="MonthCalendar!" Checked="false" Enabled="true" Tag="Periodos" Type="0" Visible="true" Clicked="ue_14" Selected="ue_MenuOptionsSelected" />
+          <Item Text="GoshtScript" PictureName="Join1!" Checked="false" Enabled="true" Tag="GoshtScript" Type="0" Visible="true" Clicked="ue_15" Selected="ue_MenuOptionsSelected" />
+          <Item Text="Reglas del Negocio" PictureName="ActionsSmall!" Checked="false" Enabled="true" Tag="GoshtScript" Type="0" Visible="true" Clicked="ue_16" Selected="ue_MenuOptionsSelected" />
+          <Item Text="Cambiar Clave" PictureName="CreateForeignKey!" Checked="false" Enabled="true" Tag="Options" Type="0" Visible="true" Clicked="ue_17" Selected="ue_MenuOptionsSelected" />
+  <!--  <Item Text="Close" PictureName="CloseBig!" Checked="false" Enabled="true" Tag="Close" Type="0" Visible="true" Clicked="ue_21" Selected="ue_MenuCloseSelected" /> -->
+        </Master>
+        <!-- <Recent Title="Recent Items"> -->
+        <!-- <Item Text="Employees" Checked="false" Enabled="true" Tag="Employees" Type="2" Visible="true" Clicked="ue_MenuEmployeesClicked" Selected="ue_MenuEmployeesSelected" /> -->
+        <!--  <Item Text="Products" Checked="false" Enabled="true" Tag="Products" Type="2" Visible="true" Clicked="ue_MenuProductsClicked" Selected="ue_MenuProductsSelected" /> -->
+        <!-- <Item Text="Orders" Checked="false" Enabled="true" Tag="Orders" Type="2" Visible="true" Clicked="ue_MenuOrdersClicked" Selected="ue_MenuProductsSelected" /> -->
+        <!-- <Item Text="Reports" Checked="false" Enabled="true" Tag="Reports" Type="2" Visible="true" Clicked="ue_MenuReportsClicked" Selected="ue_MenuReportsSelected" /> -->
+        <!-- <Item Text="Tasks" Checked="false" Enabled="true" Tag="Tasks" Type="2" Visible="true" Clicked="ue_MenuTasksClicked" Selected="ue_MenuTasksSelected" /> -->
+        <!-- </Recent> -->
+      </ApplicationMenu>
+    </ApplicationButton>
+    <Categories>
+      <Category Text="Abonados-Direcciones" Enabled="true" Tag="Abonados - Direcciones" Visible="true">
+        <!--<Panel Text="Tabs" PictureName="TabsSmall!" Enabled="true" Tag="Tabs" Visible="true">-->
+        <!--<SmallButton Text="History" PictureName="HistoryBig!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Histroy" PowerTipDescription="Recent operations" Shortcut="Ctrl+Shift+H" Tag="History" Visible="true" Clicked="ue_ButtonHistoryClicked" Selected="ue_ButtonHistorySelected">-->
+        <!--<Menu>-->
+        <!--<Item Text="Employees" PictureName="EmployeeSmall!" Checked="false" Enabled="true" Tag="Employees" Type="0" Visible="true" Clicked="ue_MenuEmployeesClicked" Selected="ue_MenuEmployeesSelected" />-->
+        <!--<Item Text="Products" PictureName="ProductsSmall!" Checked="false" Enabled="true" Tag="Product" Type="0" Visible="true" Clicked="ue_MenuProductsClicked" Selected="ue_MenuProductsSelected" />-->
+        <!--<Item Text="Orders" PictureName="OrdersSmall!" Checked="false" Enabled="true" Tag="Order" Type="0" Visible="true" Clicked="ue_MenuOrdersClicked" Selected="ue_MenuOrdersSelected" />-->
+        <!--<Item Text="Reports" PictureName="ReportsSmall!" Checked="false" Enabled="true" Tag="Report" Type="0" Visible="true" Clicked="ue_MenuReportsClicked" Selected="ue_MenuReportsSelected" />-->
+        <!--<Item Text="Tasks" PictureName="TasksSmall!" Checked="false" Enabled="true" Tag="Task" Type="0" Visible="true" Clicked="ue_MenuTasksClicked" Selected="ue_MenuTasksSelected" />-->
+        <!--</Menu>-->
+        <!--</SmallButton>-->
+        <!--<Group Visible="true">-->
+        <!--<SmallButton Text="Close All" PictureName="CloseAllSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Close all" PowerTipDescription="Close all tabs" Shortcut="Ctrl+Shift+C" Tag="Close all" Visible="true" Clicked="ue_ButtonCloseAllClicked" Selected="ue_ButtonCloseAllSelected" />-->
+        <!--</Group>-->
+        <!--<Group NewLine="true" Visible="true">-->
+        <!-- <SmallButton Text="Close" PictureName="CloseSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Close" PowerTipDescription="Close tab" Tag="Close" Visible="true" Clicked="ue_ButtonCloseClicked" Selected="ue_ButtonCloseSelected" />-->
+        <!--</Group>-->
+        <!--</Panel>-->
+        <Panel Text="Abonados - Direcciones" PictureName="BoardSmall!" Enabled="true" Tag="Boards" Visible="true">
+          <LargeButton Text="Abonados Direcciones" PictureName="EmployeeBig!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Listado de Abonados" PowerTipDescription="Mantenimiento de Abonados y Direcciones" Tag="Employees" Visible="true" Clicked="ue_18" Selected="ue_ButtonEmployeesSelected" />
+          <LargeButton Text="Cortes, Reconexiones, ReInstalaciones, Bajas de Servicio y Cambios de Servicio" PictureName="PasteFunction1!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Cortes, Reconexiones, ReInstalaciones, Bajas de Servicio y Cambios de Servicio" PowerTipDescription="Mantenimiento de Estados de Direcciones" Tag="Products" Visible="true" Clicked="ue_19" Selected="ue_ButtonProductsSelected" />
+          <LargeButton Text="Baja de Deudores" PictureName="Custom091!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Baja de Deudores" PowerTipDescription="Dar de baja a deudores en el tiempo..." Tag="Orders" Visible="true" Clicked="ue_20" Selected="ue_ButtonOrdersSelected" />
+          <LargeButton Text="Reasignar Conceptos" PictureName="UpdateTableBig!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Reasignar Conceptos" PowerTipDescription="Reasignar Conceptos" Tag="Reports" Visible="true" Clicked="ue_21" Selected="ue_ButtonReportsSelected" />
+          <LargeButton Text="Traslado Masivo de Conceptos" PictureName="Custom044a!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Traslado Masivo de Concepto" PowerTipDescription="Traslado Masivo de Concepto" Tag="Reports" Visible="true" Clicked="ue_22" Selected="ue_ButtonReportsSelected" />
+          <LargeButton Text="Listado Para Corte" PictureName="Properties1!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Listado para Cortes" PowerTipDescription="Listado para Cortes" Tag="Tasks" Visible="true" Clicked="ue_23" Selected="ue_ButtonTasksSelected" />
+        </Panel>
+    	<Panel Text="Consultas - Reportes" PictureName="BoardSmall!" Enabled="true" Tag="Boards" Visible="true">
+          <SmallButton Text="Listado de Ips - Macs" PictureName="PasteInstance1!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Listado de Ips - Macs" PowerTipDescription="Listado de Ips - Macs" Tag="Listado de Ips - Macs" Visible="true" Clicked="ue_24" Selected="ue_ButtonEmployeesSelected" />
+          <SmallButton Text="Reporte Acciones sobre Servicio" PictureName="PasteFunction2!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Reporte Acciones sobre Servicio" PowerTipDescription="Reporte Acciones sobre Servicio" Tag="Reporte Acciones sobre Servicio" Visible="true" Clicked="ue_25" Selected="ue_ButtonProductsSelected" />
+      <!--    <SmallButton Text="Informacion General x Zonas" PictureName="ComputeSum!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Informacion General x Zonas" PowerTipDescription="Informacion General x Zonas" Tag="Informacion General x Zonas" Visible="true" Clicked="ue_26" Selected="ue_ButtonOrdersSelected" />-->
+          <SmallButton Text="Reporte Deudas Eliminadas" PictureName="PlaceColumn!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Reporte Deudas Eliminadas" PowerTipDescription="Reporte Deudas Eliminadas" Tag="Reports" Visible="true" Clicked="ue_27" Selected="ue_ButtonReportsSelected" />
+          <SmallButton Text="Reporte Mes - Año Instalacion" PictureName="ComputeToday!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Reporte Mes - Año Instalacion" PowerTipDescription="Reporte Mes - Año Instalacion" Tag="Tasks" Visible="true" Clicked="ue_28" Selected="ue_ButtonTasksSelected" />
+        </Panel>
+        <Panel Text="Actualizacion y Compromisos Mensuales" PictureName="BoardSmall!" Enabled="true" Tag="Boards" Visible="true">
+          <SmallButton Text="Generar Mensualidades General" PictureName="ComputeToday2!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Generar Mensualidades General" PowerTipDescription="Generar Mensualidades General" Tag="Tasks" Visible="true" Clicked="ue_29" Selected="ue_ButtonTasksSelected" />
+          <SmallButton Text="Generar Mensualidades Zona" PictureName="ComputeToday1!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Generar Mensualidades Zona" PowerTipDescription="Generar Mensualidades Zona" Tag="Tasks" Visible="true" Clicked="ue_30" Selected="ue_ButtonTasksSelected" />
+          <SmallButton Text="Actualizacion Mensual" PictureName="Watcom1!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Actualizacion Mensual" PowerTipDescription="Actualizacion Mensual" Tag="Tasks" Visible="true" Clicked="ue_31" Selected="ue_ButtonTasksSelected" />
+          <SmallButton Text="Impresion Recibos General" PictureName="ShowOnePageSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Impresion Recibos General" PowerTipDescription="Impresion Recibos General" Tag="Tasks" Visible="true" Clicked="ue_32" Selected="ue_ButtonTasksSelected" />
+          <SmallButton Text="Impresion Recibos por Local" PictureName="ShowTwoPagesSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Impresion Recibos por Local" PowerTipDescription="Impresion Recibos por Local" Tag="Tasks" Visible="true" Clicked="ue_33" Selected="ue_ButtonTasksSelected" />
+          </Panel>
+        <!--<Panel Text="Actions" PictureName="ActionsSmall!" Enabled="true" Tag="Actions" Visible="true">
+          <Group>
+            <SmallButton PictureName="AddSmall!" Clicked="ue_ButtonAddClicked" />
+            <SmallButton PictureName="DeleteSmall!" Clicked="ue_ButtonDeleteClicked" />
+            <SmallButton PictureName="ModifySmall!" Clicked="ue_ButtonModifyClicked" />
+            <SmallButton PictureName="SaveSmall!" Clicked="ue_ButtonSaveClicked" />
+          </Group>
+          <Group >
+            <SmallButton PictureName="NavFirstSmall!" Clicked="ue_ButtonNavFirstClicked" />
+            <SmallButton PictureName="NavPrevSmall!" Clicked="ue_ButtonNavPrevClicked" />
+            <SmallButton PictureName="NavNextSmall!" Clicked="ue_ButtonNavNextClicked" />
+            <SmallButton PictureName="NavLastSmall!" Clicked="ue_ButtonNavLastClicked" />
+          </Group>
+          <Group NewLine="true" Tag="Align">
+            <SmallButton PictureName="LeftSmall!" Clicked="ue_ButtonAlignLeftClicked" />
+            <SmallButton PictureName="CenterSmall!" Clicked="ue_ButtonAlignCenterClicked" />
+            <SmallButton PictureName="RightSmall!" Clicked="ue_ButtonAlignRightClicked" />
+            <SmallButton PictureName="JustifySmall!" Clicked="ue_ButtonAlignJustifyClicked" />
+            <SmallButton PictureName="DistributedSmall!" Clicked="ue_ButtonAlignDistributedClicked" />
+          </Group>
+          <Group Tag="Filter">
+            <SmallButton PictureName="FilterSmall!" Clicked="ue_ButtonFilterClicked" />
+          </Group>
+          <Group Tag="Sort">
+            <SmallButton PictureName="SortSmall!" Clicked="ue_ButtonSortClicked" />
+          </Group>
+        </Panel>-->
+   <!--     <Panel Text="Print" PictureName="PrintSmall!" Enabled="true" Tag="Print">
+          <LargeButton Text="Print" PictureName="PrintBig!" Clicked="ue_ButtonPrintClicked"/>
+          <ComboBox PictureName="PageSizeSmall!" Label="" AllowEdit="true" AutoScale="false" Text="" AutoHScroll="false" Enabled="true" PowerTipText="Page Size" PowerTipDescription="Page size information." HScrollBar="false" VScrollBar="false" SelectedIndex="1" Sorted="true" Tag="Page size" BoxHeight="600" BoxWidth="300" Width="400" Visible="true" Modified="ue_ComboBoxPageSizeModified" Selected="ue_ComboBoxPageSizeSelected" SelectionChanged="ue_ComboBoxPageSizeSelectionChanged">
+            <Item Text="A0" PictureName="PaperSizeA0Small!" />
+            <Item Text="A1" PictureName="PaperSizeA1Small!" />
+            <Item Text="A2" PictureName="PaperSizeA2Small!" />
+            <Item Text="A3" PictureName="PaperSizeA3Small!" />
+            <Item Text="A4" PictureName="PaperSizeA4Small!" />
+          </ComboBox>
+          <SmallButton Text="Preview" PictureName="PreviewSmall!" Clicked="ue_ButtonPreviewClicked" />
+          <CheckBox Text="Print Title" Checked="false" Enabled="true" PowerTipText="Print Title" PowerTipDescription="Pring title information." ThreeState="false" Tag="PrintTitle" Clicked="ue_CheckBoxPrintTitleClicked" Selected="ue_CheckBoxPrintTitleSelected" />
+        </Panel>-->
+      </Category>
+      <Category Text="Caja - Liquidaciones - Gastos" Enabled="true" Tag="Caja - Liquidaciones - Gastos" Visible="true">
+        <Panel Text="Caja" PictureName="HRSmall!" Enabled="true" Tag="Caja">
+          <LargeButton Text="Facturacion" PictureName="Custom048!" Clicked="ue_facturacion"/>
+          <LargeButton Text="Deudas a Eliminar" PictureName="StyleLibraryList3!" Clicked="ue_34"/>
+          <LargeButton Text="Historial Formas de Pago" PictureName="Custom069a!" Clicked="ue_35"/>
+        </Panel>
+        <Panel Text="Liquidaciones" PictureName="ProductsSmall!" Enabled="true" Tag="Liquidaciones">
+          <LargeButton Text="Liquidacion Usuario" PictureName="Custom071!" Clicked="ue_36"/>
+          <LargeButton Text="Liquidacion Ofic. Detallado" PictureName="ControlCount!" Clicked="ue_37"/>
+          <LargeButton Text="Liquidacion Oficina" PictureName="ToolkitSizeCalculator!" Clicked="ue_38"/>
+          <LargeButton Text="Eliminar Deudas Duplicadas (No Canceladas)" PictureName="ProductReportBig!" Clicked="ue_39"/>
+        </Panel>
+        <Panel Text="Gastos" PictureName="OrdersSmall!" Enabled="true" Tag="Order Management">
+          <LargeButton Text="Registro de Gasto" PictureName="Custom048a!" Clicked="ue_40"/>
+          <LargeButton Text="Gastos x Fechas" PictureName="OrdersBig!" Clicked="ue_41"/>
+          <LargeButton Text="Gastos x Año" PictureName="OrderReportBig!" Clicked="ue_42"/>
+        </Panel>
+        <Panel Text="Fraccionamientos" PictureName="OrdersSmall!" Enabled="true" Tag="Fraccionamientos">
+          <LargeButton Text="Listado Fraccionamientos" PictureName="AccountingNumberFormatBig!" Clicked="ue_111"/>
+          </Panel>
+      </Category>
+      <Category Text="Comprobantes" Enabled="true" Tag="Comprobantes" Visible="true">
+        <Panel Text="Operaciones con Comprobantes" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
+          <LargeButton Text="Crear Documento Anulado" PictureName="InkEdit!" Clicked="ue_43"/>
+       <!--   <LargeButton Text="Anular Comprobantes" PictureName="DeleteRow2!" Clicked="ue_44"/> -->
+          <LargeButton Text="Mantenimiento Comprobantes" PictureName="ProductReportBig!" Clicked="ue_45"/>
+        </Panel>
+         <Panel Text="Reportes" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
+          <LargeButton Text="Listado de Comprobantes" PictureName="LibraryList1!" Clicked="ue_46"/>
+          <LargeButton Text="Listado de Anulados" PictureName="FolderBig!" Clicked="ue_47"/>
+          <LargeButton Text="Comprobantes x Tipo" PictureName="Custom070a!" Clicked="ue_48"/>
+          <LargeButton Text="Comprobantes x Servicio" PictureName="Custom070!" Clicked="ue_49"/>
+          <LargeButton Text="Coincidencias de Comprobantes" PictureName="NestedReport!" Clicked="ue_51"/>
+        </Panel>
+      </Category>
+      <Category Text="Atencion Cliente - Ordenes Servicio" Enabled="true" Tag="Atencion Cliente - Ordenes Servicio" Visible="true">
+        <Panel Text="Atencion Cliente" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
+         <LargeButton Text="Atencion Cliente" PictureName="FaxBig!" Clicked="ue_52"/> 
+         <LargeButton Text="Averias Registradas" PictureName="RemovePropertiesBig!" Clicked="ue_53"/> 
+         <LargeButton Text="Buzon Sugerencias" PictureName="ReceiveBig!" Clicked="ue_54"/> 
+         <LargeButton Text="Reporte Cortes y Reconexiones" PictureName="Edit!" Clicked="ue_55"/> 
+         <!--<LargeButton Text="Reporte Averias x Zona " PictureName="BOMBig!" Clicked="ue_56"/> -->
+         <!--<LargeButton Text="Ordenes de Servicio por Averia " PictureName="CopyBig!" Clicked="ue_57"/> -->
+         <!--<LargeButton Text="100%" PictureName="PaperActualSizeBig!" Clicked="ue_ButtonActualSizeClicked"/>  -->
+          <!--<SmallButton Text="One Page" PictureName="ShowOnePageSmall!" Clicked="ue_ButtonOnePageClicked" /> -->
+          <!--<SmallButton Text="Two Pages" PictureName="ShowTwoPagesSmall!" Clicked="ue_ButtonTwoPagesClicked" /> -->
+        </Panel>
+        <Panel Text="Ordenes de Servicio" PictureName="ShowHideSmall!" Enabled="true" Tag="Show/Hide" Visible="true">
+          <LargeButton Text="Crear Ordenes de Servicio General" PictureName="ComputeSum!" Clicked="ue_59"/> 
+          <LargeButton Text="Crear Ordenes de Servicio Local" PictureName="ComputeToday!" Clicked="ue_60"/> 
+          <LargeButton Text="Asignar Ordenes a Tecnicos" PictureName="SelectAndRun!" Clicked="ue_61"/> 
+          <LargeButton Text="Liquidacion de Ordenes" PictureName="Custom005!" Clicked="ue_62"/> 
+           <SmallButton Text="Impresion Ordenes " PictureName="Report!" Clicked="ue_63"> 
+            <Menu>
+              <Item Text="Impresion Ordenes General" PictureName="Print1!" Clicked="ue_65" />
+              <Item Text="Impresion Ordenes Local" PictureName="PrintSmall!" Clicked="ue_66" />
+            </Menu>
+          </SmallButton>
+            <SmallButton Text="Eliminar Orden Servicio" PictureName="RemoveAccessSmall!" Clicked="ue_68" /> 
+              <SmallButton Text="Listado de Reportes " PictureName="PreviewSmall!" Clicked="ue_69"> 
+            <Menu>
+              <Item Text=" Ordenes Entregadas" PictureName="Print1!" Clicked="ue_71" />
+              <Item Text="Ordenes Segun ruta" PictureName="PrintSmall!" Clicked="ue_72" />
+             </Menu>
+          </SmallButton>
+          <SmallButton Text="Averias x Atender" PictureName="SingletonReturn!" Clicked="ue_81" /> 
+          <SmallButton Text="Averias Atendidas x Zona" PictureName="ReopenBig!" Clicked="ue_82" /> 
+          <SmallButton Text="Ordenes segun Averia " PictureName="AttachSmall!" Clicked="ue_83" /> 
+          
+           <!--      <CheckBox Text="VScrollBar" Checked="false" Enabled="true" PowerTipText="VScrollBar Title" PowerTipDescription="Show VScrollBar or not" Shortcut="Ctrl+Shift+V" ThreeState="false" Tag="VScrollBarTitle" Visible="true" Clicked="ue_CheckBoxVScrollBarClicked" Selected="ue_CheckBoxVScrollBarSelected" />
+          <CheckBox Text="HScrollBar" Checked="false" Enabled="true" PowerTipText="HScrollBar Title" PowerTipDescription="Show HScrollBar or not" ThreeState="false" Tag="HscrollBarTitle" Visible="true" Clicked="ue_CheckBoxHScrollBarClicked" Selected="ue_CheckBoxHScrollBarSelected" />
+          <CheckBox Text="TitleBar" Checked="false" Enabled="true" PowerTipText="Title" PowerTipDescription="Show TitleBar or not in the datawindow" ThreeState="false" Tag="TitleBar" Visible="true" Clicked="ue_CheckBoxTitleBarClicked" Selected="ue_CheckBoxTitleBarSelected" />
+          <CheckBox Text="Preview" Checked="false" Enabled="true" PowerTipText="Preview Title" PowerTipDescription="Priview Or Not" ThreeState="false" Tag="PrintViewTitle" Visible="true" Clicked="ue_CheckBoxPrevewClicked" Selected="ue_CheckBoxPrevewSelected" />
+          <CheckBox Text="Ruler" Checked="false" Enabled="true" PowerTipText="Ruler Title" PowerTipDescription="Show Ruler or not in the priview mode" ThreeState="false" Tag="RulerTitle" Visible="true" Clicked="ue_CheckBoxRulerClicked" Selected="ue_CheckBoxRulerSelected" />-->
+        </Panel>
+      </Category>
+      <Category Text="Control Tecnicos" Enabled="true" Tag="Control Tecnicos" Visible="true">
+        <Panel Text="Control Tecnicos" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
+               <LargeButton Text="Control de Tecnicos" PictureName="AccountBig!" Clicked="ue_74"/> 
+               <LargeButton Text="Consumo de Materiales" PictureName="Custom045a!" Clicked="ue_75"/> 
+        </Panel>
+      </Category>
+       <Category Text="Almacen" Enabled="true" Tag="Almacen" Visible="true">
+        <Panel Text="Almacen" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
+   		<LargeButton Text="Modulo Almacen" PictureName="CreateIndex!" Clicked="ue_77"/>                
+        </Panel>
+      </Category>
+      
+      <Category Text="Reportes" Enabled="true" Tag="Reportes" Visible="true">
+        <Panel Text="Reportes Varios" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
+   		<SmallButton Text="Reporte de Ingresos x Zonas" PictureName="FitPageWidthSmall!" Clicked="ue_101"/>                
+   		<SmallButton Text="Reporte Deudas Anteriores por Meses" PictureName="FitPageWidthSmall!" Clicked="ue_102"/>                
+   		<SmallButton Text="Consolidado de Abonado x Zonas" PictureName="FitPageWidthSmall!" Clicked="ue_103"/>                
+   		<SmallButton Text="Reporte Direcciones x Concepto" PictureName="FitPageWidthSmall!" Clicked="ue_104"/>                
+   		<!--<LargeButton Text="Reporte Direcciones x Forma de Conexion" PictureName="FitPageWidthSmall!" Clicked="ue_105"/>  -->              
+   		<SmallButton Text="Reporte Direcciones x Convenio" PictureName="FitPageWidthSmall!" Clicked="ue_106"/>                
+   		<SmallButton Text="Reporte Deudas a la Fecha" PictureName="FitPageWidthSmall!" Clicked="ue_107"/>                
+   		<SmallButton Text="Reporte de Cortes del Dia" PictureName="FitPageWidthSmall!" Clicked="ue_108"/>                
+   		<SmallButton Text="Reporte de Reclamos x Recibos" PictureName="FitPageWidthSmall!" Clicked="ue_109"/>                
+        </Panel>
+      </Category>
+      
+      
+       </Categories>
+   <TabButtons>
+ <!--  <TabButton PictureName="HelpSmall!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Help" PowerTipDescription="Get help." Tag="TabHelp" Visible="true" Clicked="ue_help"/>-->
+ <!--  <TabButton PictureName="ToolkitAbout!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Info" PowerTipDescription="Get info." Tag="TabInfo" Visible="true" Clicked="ue_about"/>-->
+      <TabButton PictureName="NotFound!" Checked="false" DefaultCommand="true" Enabled="true" PowerTipText="Cerrar" PowerTipDescription="Get info." Tag="Cerrar" Visible="true" Clicked="ue_cerrar_popup"/>
+      </TabButtons>
+  </RibbonItems>
+</RibbonBar>
