@@ -1,0 +1,45 @@
+Para poder desplegar
+
+*Primero instalar node.js
+
+*Despues instalar swa client con este comando 
+
+npm install -D @azure/static-web-apps-cli
+
+Para el despligue :
+
+* Primero despues de descomprimir el zip, se debe copiar la carpeta CloudAppPublisher dentro de la otra .carpeta donde esta la aplicacion
+
+* Si al ejecutar desde la pagina web sale que no encuentra el CloudAppInstaller entonces ir a la carpeta 
+.\drcahnatada\js\cloudapplauncher.js y editar la linea :
+
+var appDownloadUrl = "../CloudAppPublisher/CloudAppInstall 22.0/CloudAppLauncher_Installer.exe"; 
+
+debe ser
+
+var appDownloadUrl = "./CloudAppPublisher/CloudAppInstall 22.0/CloudAppLauncher_Installer.exe";
+
+y tambien buscar para cambiar  :
+
+var jsonUrl = "../CloudAppPublisher/CloudAppInstall/LauncherSetup.json?varRandom=" + Math.random();
+
+debe ser
+
+var jsonUrl = "./CloudAppPublisher/CloudAppInstall/LauncherSetup.json?varRandom=" + Math.random();
+
+Se puede hacer una copia del archivo cloudapplauncher.js ya corregido y en el bat de despliegue se puede agregar un copy que reemplaze este archivo ya corregido con el que viene original del despliegue antes de swa deploy.
+
+Ejmplo : 
+
+copy .\cloudapplauncher.js /Y .\drchantada\js\cloudapplauncher.js
+
+swa deploy .\drchantada --env Production -d 684913addfec93b63b9dd3e882a3ebfef9b9fa6589292458813b56238bce43c804-bee0ec9d-4d14-4382-a102-55b1b1ecac0400f20200c221df0f
+
+donde el primer archivo ya esta corregido como se explico al principio
+
+Si sale mensaje 
+
+(node:10520) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+no preocuparse es una dependencia de node obsoleto que swa invoca
