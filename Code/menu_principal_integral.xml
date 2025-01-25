@@ -222,7 +222,8 @@
    		<SmallButton Text="Reporte Direcciones x Convenio" PictureName="FitPageWidthSmall!" Clicked="ue_106"/>                
    		<SmallButton Text="Reporte Deudas a la Fecha" PictureName="FitPageWidthSmall!" Clicked="ue_107"/>                
    		<SmallButton Text="Reporte de Cortes del Dia" PictureName="FitPageWidthSmall!" Clicked="ue_108"/>                
-   		<SmallButton Text="Reporte de Reclamos x Recibos" PictureName="FitPageWidthSmall!" Clicked="ue_109"/>                
+   		<SmallButton Text="Reporte de Reclamos x Recibos" PictureName="FitPageWidthSmall!" Clicked="ue_109"/>  
+   		<SmallButton Text="Reporte de SMS" PictureName="FitPageWidthSmall!" Clicked="ue_112"/>  
         </Panel>
       </Category>
       
