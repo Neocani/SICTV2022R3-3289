@@ -9,7 +9,7 @@
             <Item Text="Configuracion de Accesos" PictureName="LockSmall!" Checked="false" Enabled="true" Tag="Configuracion de Accesos" Type="0" Visible="true" Clicked="ue_2" Selected="" />
             <Item Text="Ubigeo y Zonas" PictureName="Custom042a!" Checked="false" Enabled="true" Tag="Ubigeo y Zonas" Type="0" Visible="true" Clicked="ue_3" Selected="" />
             <Item Text="Datos de la Empresa" PictureName="Structure!" Checked="false" Enabled="true" Tag="Datos de Empresa" Type="0" Visible="true" Clicked="ue_4" Selected="" />
-            <Item Text="Datos del Local" PictureName="ComputePage2!" Checked="false" Enabled="true" Tag="Series Comprobantes" Type="0" Visible="true" Clicked="ue_5" Selected="" />
+            <Item Text="Datos y Tipos Comprobantes Local " PictureName="ComputePage2!" Checked="false" Enabled="true" Tag="Series Comprobantes" Type="0" Visible="true" Clicked="ue_5" Selected="" />
        <Item Type="1" Visible="true"/>
        <Item Text="Actualizaciones" PictureName="ToolkitDebugger!" Checked="false" Enabled="true" Tag="Actualizaciones" Type="0" Visible="true" Clicked="ue_110" Selected="" />
           </Item>
