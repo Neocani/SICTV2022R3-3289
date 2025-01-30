@@ -174,6 +174,7 @@
         <Panel Text="Ordenes de Servicio" PictureName="ShowHideSmall!" Enabled="true" Tag="Show/Hide" Visible="true">
           <LargeButton Text="Crear Ordenes de Servicio General" PictureName="ComputeSum!" Clicked="ue_59"/> 
           <LargeButton Text="Crear Ordenes de Servicio Local" PictureName="ComputeToday!" Clicked="ue_60"/> 
+          <LargeButton Text="Listado de Ordenes de Servicio" PictureName="Custom004!" Clicked="ue_113"/> 
           <LargeButton Text="Asignar Ordenes a Tecnicos" PictureName="SelectAndRun!" Clicked="ue_61"/> 
           <LargeButton Text="Liquidacion de Ordenes" PictureName="Custom005!" Clicked="ue_62"/> 
            <SmallButton Text="Impresion Ordenes " PictureName="Report!" Clicked="ue_63"> 
