@@ -162,7 +162,7 @@
       <Category Text="Atencion Cliente - Ordenes Servicio" Enabled="true" Tag="Atencion Cliente - Ordenes Servicio" Visible="true">
         <Panel Text="Atencion Cliente" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
          <LargeButton Text="Atencion Cliente" PictureName="FaxBig!" Clicked="ue_52"/> 
-         <LargeButton Text="Averias Registradas" PictureName="RemovePropertiesBig!" Clicked="ue_53"/> 
+         <LargeButton Text="Listado de Averias Reportadas" PictureName="RemovePropertiesBig!" Clicked="ue_53"/> 
          <LargeButton Text="Buzon Sugerencias" PictureName="ReceiveBig!" Clicked="ue_54"/> 
          <LargeButton Text="Reporte Cortes y Reconexiones" PictureName="Edit!" Clicked="ue_55"/> 
          <!--<LargeButton Text="Reporte Averias x Zona " PictureName="BOMBig!" Clicked="ue_56"/> -->
