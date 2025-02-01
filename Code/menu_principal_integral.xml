@@ -127,6 +127,7 @@
       <Category Text="Caja - Liquidaciones - Gastos" Enabled="true" Tag="Caja - Liquidaciones - Gastos" Visible="true">
         <Panel Text="Caja" PictureName="HRSmall!" Enabled="true" Tag="Caja">
           <LargeButton Text="Facturacion" PictureName="Custom048!" Clicked="ue_facturacion"/>
+	   <LargeButton Text="Autorizar Descuento App" PictureName="SelectStartRemote1!" Clicked="ue_114"/>
           <LargeButton Text="Deudas a Eliminar" PictureName="StyleLibraryList3!" Clicked="ue_34"/>
           <LargeButton Text="Historial Formas de Pago" PictureName="Custom069a!" Clicked="ue_35"/>
         </Panel>
