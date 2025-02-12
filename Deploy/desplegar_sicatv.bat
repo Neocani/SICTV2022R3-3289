@@ -4,4 +4,4 @@ move .\CloudAppPublisher .\SICATV_v2022R3\CloudAppPublisher
 
 copy .\cloudapplauncher.js /Y .\SICATV_v2022R3\js\cloudapplauncher.js
 
-swa deploy .\SICATV_v2022R3 --env Production --verbose -d a4ef5b6469ecf776b20b5ab0d0808c72e09498c5f2d80fd987c753e36639bd8304-a82f122a-6d1a-45a5-986e-aac5df75710e010060902a5c8d10
+swa deploy .\SICATV_v2022R3 --env Production --verbose -d ba5f1d9996c464e4f26a13055cc556eab58285c53974a6872ee1b113cbec287304-10177840-35cb-49dd-9476-24d5a2585b0200f06270127dd30f
