@@ -24,6 +24,7 @@
             <Item Text="Marcas \ Modelos Dispositivos" PictureName="Custom057a!" Checked="false" Enabled="true" Tag="Marcas \ Modelos Dispositivos" Type="0" Visible="true" Clicked="ue_9" Selected="ue_MenuSignOutSelected" />
           </Item>
           <Item Type="1" Visible="true"/>
+          <Item Text="Bancos Cuentas" PictureName="Library!" Checked="false" Enabled="true" Tag="Gastos Rubros" Type="0" Visible="true" Clicked="ue_116" Selected="ue_MenuOptionsSelected" />
           <Item Text="Gastos Rubros" PictureName="Custom048a!" Checked="false" Enabled="true" Tag="Gastos Rubros" Type="0" Visible="true" Clicked="ue_10" Selected="ue_MenuOptionsSelected" />
           <Item Text="Servicios" PictureName="BoardBig!" Checked="false" Enabled="true" Tag="Servicios" Type="0" Visible="true" Clicked="ue_11" Selected="ue_MenuOptionsSelected" />
           <Item Text="Averias" PictureName="CreateLibrary!" Checked="false" Enabled="true" Tag="Averias" Type="0" Visible="true" Clicked="ue_12" Selected="ue_MenuOptionsSelected" />
