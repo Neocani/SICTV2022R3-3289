@@ -152,6 +152,7 @@
           <LargeButton Text="Crear Documento Anulado" PictureName="InkEdit!" Clicked="ue_43"/>
        <!--   <LargeButton Text="Anular Comprobantes" PictureName="DeleteRow2!" Clicked="ue_44"/> -->
           <LargeButton Text="Mantenimiento Comprobantes" PictureName="ProductReportBig!" Clicked="ue_45"/>
+          <LargeButton Text="Reenviar Comprobantes Electronicos" PictureName="HyperLinkBig!" Clicked="ue_117"/>
         </Panel>
          <Panel Text="Reportes" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
           <LargeButton Text="Listado de Comprobantes" PictureName="LibraryList1!" Clicked="ue_46"/>
