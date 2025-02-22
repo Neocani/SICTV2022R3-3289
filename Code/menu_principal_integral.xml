@@ -158,10 +158,11 @@
           <LargeButton Text="Listado de Comprobantes" PictureName="LibraryList1!" Clicked="ue_46"/>
           <LargeButton Text="Listado de Anulados" PictureName="Open!" Clicked="ue_47"/>
           <LargeButton Text="Listado de Eliminados" PictureName="NewFolderSmall!" Clicked="ue_115"/>
-          <LargeButton Text="Comprobantes x Tipo" PictureName="Custom070a!" Clicked="ue_48"/>
+          <LargeButton Text="Comprobantes Local x Tipo" PictureName="Custom070a!" Clicked="ue_48"/>
+          <LargeButton Text="Comprobantes Solo x Tipo" PictureName="FolderBig!" Clicked="ue_118"/>
           <LargeButton Text="Comprobantes x Servicio" PictureName="Custom070!" Clicked="ue_49"/>
           <LargeButton Text="Coincidencias de Comprobantes" PictureName="NestedReport!" Clicked="ue_51"/>
-        </Panel>
+                  </Panel>
       </Category>
       <Category Text="Atencion Cliente - Ordenes Servicio" Enabled="true" Tag="Atencion Cliente - Ordenes Servicio" Visible="true">
         <Panel Text="Atencion Cliente" PictureName="ZoomSmall!" Enabled="true" Tag="Zoom" Visible="true">
